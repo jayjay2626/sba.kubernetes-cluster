@@ -1,0 +1,25 @@
+
+                 Node Info
+-----------------------------------------------------------
+NAME       STATUS   ROLES    AGE   VERSION
+minikube   Ready    master   40m   v1.19.4
+
+                 Cluster Info
+-----------------------------------------------------------
+Kubernetes control plane is running at https://127.0.0.1:49157
+KubeDNS is running at https://127.0.0.1:49157/api/v1/namespaces/kube-system/services/kube-dns:dns/proxy
+
+To further debug and diagnose cluster problems, use 'kubectl cluster-info dump'.
+
+                 Services Info
+-----------------------------------------------------------
+NAME                  TYPE        CLUSTER-IP       EXTERNAL-IP   PORT(S)          AGE
+kubernetes            ClusterIP   10.96.0.1        <none>        443/TCP          40m
+sbaflaskapp-service   NodePort    10.108.134.186   <none>        8226:30008/TCP   39m
+
+                 Pod Info
+-----------------------------------------------------------
+NAME                           READY   STATUS    RESTARTS   AGE
+sbaflaskapp-686d8d65b9-6j5cq   1/1     Running   0          36m
+sbaflaskapp-686d8d65b9-mbxwg   1/1     Running   0          36m
+sbaflaskapp-686d8d65b9-mptm9   1/1     Running   0          37m

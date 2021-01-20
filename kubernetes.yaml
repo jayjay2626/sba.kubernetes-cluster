@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: sbaflaskapp
-        image: rangeley826/sba.kubernetes-cluster
+        image: rangeley826/sbaflaskapp
         ports:
         - containerPort: 8226
 

@@ -1,6 +1,6 @@
 
 # kind of latest image at this time
-FROM python:3.10.0a4-buster
+FROM python:latest
 
 WORKDIR .
 
@@ -8,6 +8,6 @@ COPY . .
 
 RUN pip install -r requirements.txt
 
-EXPOSE 8226
+EXPOSE 5000
 
 CMD ["python", "web.py"]
